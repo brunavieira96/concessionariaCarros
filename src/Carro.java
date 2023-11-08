@@ -6,7 +6,7 @@ public class Carro {
     private String cor;
     private Cliente cliente;
 
-    public Carro () {
+    public class Carro () {
 
         this.modelo = modelo;
         this.ano = ano; 
