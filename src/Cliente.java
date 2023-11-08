@@ -6,6 +6,15 @@ public class Cliente {
     private String profissao;
     private String rg;
 
+    public class Cliente () {
+    
+        this.nome = nome;
+        this.cpf = cpf;
+        this.endereco = endereco;
+        this.profissao = profissao;
+        this.rg = rg;
+    }
+
     public String getNome() {
 
         return this.nome = nome;
