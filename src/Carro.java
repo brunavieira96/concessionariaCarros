@@ -1,4 +1,3 @@
-import javax.print.DocFlavor;
 
 public class Carro {
 
@@ -7,7 +6,7 @@ public class Carro {
     private String cor;
     private Cliente cliente;
 
-    public Carro (String numeroPlaca) {
+    public Carro () {
 
         this.modelo = modelo;
         this.ano = ano; 
