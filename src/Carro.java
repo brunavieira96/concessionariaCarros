@@ -9,7 +9,10 @@ public class Carro {
 
     public Carro (String numeroPlaca) {
 
-        System.out.println("Carro cadastratado com sucesso! Insira os demais dados.");
+        this.modelo = modelo;
+        this.ano = ano; 
+        this.cor = cor;
+        this.cliente = cliente;
     }
 
     public String getModelo() {
